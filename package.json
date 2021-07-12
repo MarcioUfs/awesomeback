@@ -1,0 +1,41 @@
+{
+  "name": "cadunico",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.com/MarcioUfs/cadunicoback.svg?token=nWpgBy4eHzVkyNkqYsWs&branch=dev)](https://travis-ci.com/MarcioUfs/cadunicoback)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "use": "npm install express --save",
+    "start": "nodemon server.js",
+    "proxy": "http://localhost:3000/",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fastest-validator": "^1.11.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcioUfs/cadunicoback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcioUfs/cadunicoback/issues"
+  },
+  "homepage": "https://github.com/MarcioUfs/cadunicoback#readme"
+}

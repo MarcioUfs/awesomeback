@@ -1,0 +1,24 @@
+npm init -y
+npm install --save express
+npm install --save sequelize
+sequelize init
+
+npm install --save mysql2
+
+sequelize model:generate --name Post --attributes title:string,content:text,imageUrl:string,categoryId:integer,userId:integer
+sequelize model:generate --name User --attributes name:string,email:string,password:string
+sequelize model:generate --name Category --attributes name:string
+sequelize model:generate --name Comment --attributes content:text,postId:integer,userId:integer
+
+
+CREATE DATABASE coderawesome_tut_api;
+
+sequelize db:migrate
+
+npm install --save body-parser
+
+npm install fastest-validator
+
+npm install --save bcryptjs jsonwebtoken nodemon
+
+npm install --save multer
