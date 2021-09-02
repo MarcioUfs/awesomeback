@@ -1,10 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": "123456",
+    "password": "1234",
     "database": "cadunico",
-    "host": "localhost",
-    "dialect": "postgres"
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
