@@ -1,7 +1,8 @@
 npm init -y
 npm install --save express
 npm install --save sequelize
-sequelize init
+npm install -D sequelize-cli
+npx sequelize init
 
 npm install --save mysql2
 
@@ -22,3 +23,10 @@ npm install fastest-validator
 npm install --save bcryptjs jsonwebtoken nodemon
 
 npm install --save multer
+
+
+{
+	"email": "marcio@gmail.com",
+	"password":"123456"
+}
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmNpb0BnbWFpbC5jb20iLCJ1c2VySWQiOjEsImlhdCI6MTYzMDYyMDEwM30.NuVojBLRtm-KZTBOgUOX_T9tF3vhe6jXh9tfMsTDhz8"

@@ -4,4 +4,4 @@ const port = 3030;
 
 const server = http.createServer(app);
 
-server.listen(port);
+server.listen(port, console.log(`http://localhost:${port}`));
